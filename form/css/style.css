@@ -1,0 +1,68 @@
+form {
+    border: 1px solid black; 
+    width: 320px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    margin: 15px;
+  
+}
+
+h2 {
+    margin: 15px 15px 0 15px;
+}
+
+label {
+    padding: 15px;
+}
+
+.name {
+    padding-top: 0;
+}
+
+div {
+    margin-left: 15px;
+    
+}
+
+input {
+    width: 200px;
+    height: 15px;
+    margin: 5px 15px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 200px;
+    margin: 5px 15px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    resize: vertical;
+    max-height: 250px;
+    min-height: 25px;
+}
+
+.checkbox {
+    width: 15px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.agree {
+    padding: 0;
+}
+
+button {
+    margin: 5px 15px 15px 15px;
+    border-radius: 5px;
+    border: 1cm;
+    padding: 5px 10px;
+    cursor: pointer;
+}
