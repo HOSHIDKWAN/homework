@@ -1,0 +1,44 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border-bottom: 1px solid #1d1b1b;  
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    padding: 5px auto;
+}
+
+a {
+    color: #1d1b1b;
+}
+
+.ul_container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tel {
+    text-decoration: none;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
